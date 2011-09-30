@@ -43,6 +43,9 @@ See lib/acts_as_rateable.rb for further details!
 
 Jinzhu - generator is compatible with rails 3.
 
+
 Copyright (c) 2011 Anton Zaytsev, http://antonzaytsev.com , released under the MIT license
+
 Copyright (c) 2007-2010 Ferenc Fekete, http://feketeferenc.hu , released under the MIT license
+
 Copyright (c) 2011 Joerg Polakowski, http://mobile-melting.de , released under the MIT license
