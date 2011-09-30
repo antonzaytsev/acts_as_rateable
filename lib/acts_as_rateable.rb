@@ -1,5 +1,3 @@
-require "./acts_as_rateable/version"
-
 module ActiveRecord
   module Acts
     module Rateable
