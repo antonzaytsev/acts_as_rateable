@@ -1,5 +1,3 @@
-ActiveRecord::Base.send(:include, ActiveRecord::Acts::Rateable)
-
 module ActiveRecord
   module Acts
     module Rateable
@@ -88,3 +86,5 @@ module ActiveRecord
 		end
   end
 end
+
+ActiveRecord::Base.send(:include, ActiveRecord::Acts::Rateable)
