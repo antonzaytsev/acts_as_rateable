@@ -1,3 +1,5 @@
+ActiveRecord::Base.send(:include, ActiveRecord::Acts::Rateable)
+
 module ActiveRecord
   module Acts
     module Rateable
