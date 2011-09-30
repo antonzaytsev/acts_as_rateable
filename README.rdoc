@@ -29,13 +29,21 @@ Now insert 'acts_as_rateable' into your model, and don't forget  restart your ap
 
 Now you can rate it ( 1-# )or calculate the average rating.
 
-  @post.rate_it( 4, current_user.id )
+  # rate for selected post
+  @post.rate_it( 4, current_user ) #=> true || false
+
+  # average rating of selected post
   @post.average_rating #=> 4.0
   @post.average_rating_round #=> 4
   @post.average_rating_percent #=> 80
-  @post.rated_by?( current_user ) #=> rating || false
-  @post.parse_ratings(:json) #=> JSOn formatted string containing the post's ratings
-  Post.find_average_of( 4 ) #=> array of posts
+
+  # check if selected post rated by user
+  @post.rated_by?( current_user ) #=> instance of rating model || false
+
+  @post.parse_ratings(:json) #=> JSON formatted string containing the post's ratings
+
+  # find posts with rating '4'
+  Post.find_average_of( 4 ) #=> array
 
 See lib/acts_as_rateable.rb for further details!
 
