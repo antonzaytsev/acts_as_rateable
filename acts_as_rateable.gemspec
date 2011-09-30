@@ -1,6 +1,4 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/acts_as_rateable/version', __FILE__)
-
 Gem::Specification.new do |gem|
   gem.authors       = ["Ferenc Fekete", "Gabriel Gironda", "Michael Reinsch", "Anton Zaytsev"]
   gem.email         = "info@antonzaytsev.com"
