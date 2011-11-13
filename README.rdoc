@@ -9,9 +9,9 @@ the user's rating description or comment.
 
 ==Install
 
-You can use the latest Rails 3 gem with the latest Acts As Rateable gem:
+You can easily install gem by adding this line into your Gemfile:
 
-  gem install acts_as_rateable
+  gem "acts_as_rateable", :git => "git://github.com/anton-zaytsev/acts_as_rateable.git"
 
 After you install Acts As Rateable and add it to your Gemfile, you need to run the generator:
 

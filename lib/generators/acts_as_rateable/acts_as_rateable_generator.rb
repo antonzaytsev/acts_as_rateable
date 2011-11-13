@@ -12,6 +12,6 @@ class ActsAsRateableGenerator < Rails::Generators::Base
   end
 
   def copy_migration_file
-    migration_template 'migration.rb', 'db/migrate/acts_as_rateable_migration' 
+    migration_template 'migration.rb', 'db/migrate/acts_as_rateable_migration'
   end
 end
